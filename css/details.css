@@ -1,0 +1,28 @@
+.details-wrapper .pro-details {
+    display: flex;
+    row-gap: var(--el-medium);
+    /* height: 600px; */
+}
+
+.details-wrapper .pro-details > div {
+    width: var(--ls-1-2);
+    padding: var(--el-medium);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.8rem;
+}
+
+.details-wrapper .pro-details > div > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.details-wrapper .pro-details .pro-details-img {
+    padding-left: 0;
+}
+
+.details-wrapper .pro-details .pro-details-info-btn {
+    text-align: right;
+    margin-top: 1rem;
+}
